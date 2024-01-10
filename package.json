@@ -39,19 +39,20 @@
   },
   "homepage": "https://github.com/adrienjoly/npm-pdfreader",
   "dependencies": {
-    "pdf2json": "3.0.1"
+    "pdf2json": "3.0.1",
+    "pdfreader": "^3.0.2"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/npm": "^11.0.2",
     "ava": "^4.1.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "execa": "^6.1.0",
     "prettier": "2.6.1",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^22.0.12"
   },
   "engines": {
     "node": ">=14"
